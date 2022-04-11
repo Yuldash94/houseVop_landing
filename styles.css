@@ -1,0 +1,446 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #242B33;
+}
+
+header {
+    width: 70%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    color: white;
+    text-align: center;
+}
+
+.logo_head {
+    margin: 0;
+    font-family: 'Post No Bills Jaffna SemiBold Regular';
+    font-size: 36px;
+}
+
+.logo_head_p {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+nav {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header_list {
+    list-style: none;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_list > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top_info {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background: linear-gradient(180deg, #242B33 11.98%,
+     rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%),
+     url(/img/head.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.top_info_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.top_info_text {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #D4C17F;
+    text-align: center;
+}
+
+.top_info_icon {
+    background-image: url(/img/mouse.png);
+    background-size: contain;
+    background-position: center;
+    height: 40px;
+    width: 40px;
+}
+
+.top_info_contact {
+    width: 40%;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.top_info_contact_location{
+    display: flex;
+    align-items: center;
+    width: 43%;
+}
+
+.location_icon {
+    background-image: url(/img/placeholder.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 22px;
+    width: 22px;
+    margin-right: 15px;
+}
+
+.top_info_contact_phone {
+    display: flex;
+    align-items: center;
+    width: 31%;
+}
+
+.phone_icon {
+    background-image: url(/img/phone-call.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 22px;
+    width: 22px;
+    margin-right: 15px;
+}
+
+.main_props {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.props_innner {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.props_park, .props_house, .props_fontain, .props_velo {
+    width: 20%;
+    height: 100%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.park_icon, .house_icon, .fontain_icon, .velo_icon {
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 75px;
+} 
+
+.park_icon {
+    background-image: url(/img/bench.png);
+}
+
+.house_icon {
+    background-image: url(/img/building.png);
+}
+
+.fontain_icon {
+    background-image: url(/img/fountain.png);
+}
+
+.velo_icon {
+    background-image: url(/img/bicycle.png);
+}
+
+.main_flats {
+    width: 70%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.flats_head {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
+.flats {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flats_inner_block {
+    height: calc(100% - 15px);
+    width: calc(50% - 15px);
+    margin: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.loft1 {
+    background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), url(/img/loft1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.loft2 {
+    background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), url(/img/loft2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.loft3 {
+    background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), url(/img/loft3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.loft4 {
+    background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), url(/img/loft4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.flats_inner_block > p{
+    margin: 2em;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.bottom {
+    align-items: flex-start;
+}
+
+.main_questions {
+    background: linear-gradient(180deg, #242B33 10.42%, 
+    rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), 
+    linear-gradient(0deg, rgba(36, 43, 51, 0.9), 
+    rgba(36, 43, 51, 0.9)), 
+    url(/img/question_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+.questions_inner {
+    width: 70%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.questions_info {
+    width: 45%;
+    height: 100%;
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.questions_info > h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
+form {
+    width: 45%;
+    height: 60%;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form_name, .form_number, .form_submit {
+    outline: none;
+    border: none;
+    width: 45%;
+    height: 80%;
+    background-color: #fff;
+    opacity: 0.2;
+}
+
+.form_submit {
+    background-color: #D4C17F;
+    opacity: 1;
+    color: white;
+}
+
+.form_name::placeholder,  .form_number::placeholder {
+    color: #bebebe;
+    font-family: 'Raleway', serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.form > p {
+    width: 50%;
+    height: 80%;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 35vh;
+    background: #2D343C;
+    display: flex;
+    align-items: center;
+}
+
+.footer_inner {
+    width: 70%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+
+}
+
+.footer_list {
+    list-style: none;
+    width: 25%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_email {
+    color: #D4C17F;
+}
+
+.footer_list > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer_logo {
+    width: 25%;
+}
+
+.social_links {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 80%;
+    padding: 0;
+    margin-top: 1em;
+}
+
+.social_links > li > a {
+    display: block;
+    width: 28px;
+    height: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.youtube {
+    background-image: url(/img/youtube.png);
+}
+
+.vk {
+    background-image: url(/img/vk.png);
+}
+
+.facebook {
+    background-image: url(/img/facebook-logo.png);
+}
+
+.instagram {
+    background-image: url(/img/instagram.png);
+}
